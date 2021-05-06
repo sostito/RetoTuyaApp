@@ -17,3 +17,4 @@ Contiene 3 Apis, las cuales son: Pagos, Logistica y Facturar, las cuales obtiene
 - Se utilizó NUnit para las pruebas unitarias, aunque también tuve en consideración XUnit
 - Se utilizó el nugget Moq para el mockeo de respuesta al consumir a otras Apis en pruebas unitarias
 - La conexión al base de datos fue mediante credenciales de Windows
+- No se implementó docker puesto que aún debo documentarme más.
