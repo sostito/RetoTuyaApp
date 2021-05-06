@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Common;
+using Microsoft.AspNetCore.Mvc;
 using Model.Request;
 using Service;
+using System;
 
 namespace Pago.Controllers
 {
@@ -19,9 +21,16 @@ namespace Pago.Controllers
       [HttpPost("[action]")]
       public IActionResult Pay([FromBody] PayRequest payRequest)
       {
-         var response = invoiceService.InvoiceProducts(payRequest);
-         logisticsService.SaveOrder(response);
-         return StatusCode(200, response);
+         try
+         {
+            var response = invoiceService.InvoiceProducts(payRequest);
+            logisticsService.SaveOrder(response);
+            return StatusCode(200, response);
+         }
+         catch (Exception ex)
+         {
+            return StatusCode(500, Constants.REQUEST_ERROR_MESSAGE);
+         }
       }
    }
 }

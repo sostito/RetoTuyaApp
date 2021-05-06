@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logistica", "Logistica\Logistica.csproj", "{567F3220-004F-4023-A018-6C662B9F9160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{EED7DE5E-0787-4B93-854F-F2B05B6224BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{EED7DE5E-0787-4B93-854F-F2B05B6224BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{24AF1194-E48E-470F-A144-5409DEBFA113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{24AF1194-E48E-470F-A144-5409DEBFA113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Serialize\Common.csproj", "{AA10C0BC-2938-437E-B95C-E555F629DD10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Serialize\Common.csproj", "{AA10C0BC-2938-437E-B95C-E555F629DD10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{8E8D477A-4B88-4669-99BC-36C5A63BC79E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AA10C0BC-2938-437E-B95C-E555F629DD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA10C0BC-2938-437E-B95C-E555F629DD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA10C0BC-2938-437E-B95C-E555F629DD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8D477A-4B88-4669-99BC-36C5A63BC79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8D477A-4B88-4669-99BC-36C5A63BC79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8D477A-4B88-4669-99BC-36C5A63BC79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8D477A-4B88-4669-99BC-36C5A63BC79E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

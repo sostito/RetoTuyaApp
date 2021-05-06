@@ -1,9 +1,0 @@
-C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Serialize\bin\Debug\netcoreapp3.1\Common.deps.json
-C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Serialize\bin\Debug\netcoreapp3.1\Common.dll
-C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Serialize\bin\Debug\netcoreapp3.1\Common.pdb
-C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Serialize\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
-C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Serialize\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
-C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Serialize\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
-C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Serialize\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
-C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Serialize\obj\Debug\netcoreapp3.1\Common.dll
-C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Serialize\obj\Debug\netcoreapp3.1\Common.pdb

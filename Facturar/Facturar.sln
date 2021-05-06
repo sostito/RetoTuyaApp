@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facturar", "Facturar\Facturar.csproj", "{8052DA20-04F6-4B36-B20D-8DD2663FC69B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facturar", "Facturar\Facturar.csproj", "{8052DA20-04F6-4B36-B20D-8DD2663FC69B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{F5B6F2DC-9019-453C-9FF9-1A14D3112F2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{F5B6F2DC-9019-453C-9FF9-1A14D3112F2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "InvoiceService\Services.csproj", "{E54A424F-E6ED-4D94-9A19-EFDC24D0E395}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "InvoiceService\Services.csproj", "{E54A424F-E6ED-4D94-9A19-EFDC24D0E395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{4367A0BE-AB33-4E79-9A36-7C53AC5B4927}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E54A424F-E6ED-4D94-9A19-EFDC24D0E395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E54A424F-E6ED-4D94-9A19-EFDC24D0E395}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E54A424F-E6ED-4D94-9A19-EFDC24D0E395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4367A0BE-AB33-4E79-9A36-7C53AC5B4927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4367A0BE-AB33-4E79-9A36-7C53AC5B4927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4367A0BE-AB33-4E79-9A36-7C53AC5B4927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4367A0BE-AB33-4E79-9A36-7C53AC5B4927}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
