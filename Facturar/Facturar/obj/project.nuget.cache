@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AOUzqtlD1yG5hPG7RhnjeezHsp4YwWIg4CsGeGmb5rr2drbRp79PNWJapWfT7oyWFXKSZchligLJQgv1yhYxig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Freddy Rangel\\Desktop\\tuya\\Facturar\\Facturar\\Facturar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Freddy Rangel\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
+  ],
+  "logs": []
+}

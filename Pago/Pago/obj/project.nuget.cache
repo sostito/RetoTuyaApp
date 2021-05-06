@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jro277KUW7po8jY+kSqD/dPkDvY6LA57OqEXGdZxqHth9njzNynkh3FnHczioLK6TtN4yiVDYKc1+5KSTVz6Ww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Freddy Rangel\\Desktop\\tuya\\Pago\\Pago\\Pago.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Freddy Rangel\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+    "C:\\Users\\Freddy Rangel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
