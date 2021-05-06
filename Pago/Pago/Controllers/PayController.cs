@@ -27,7 +27,7 @@ namespace Pago.Controllers
             logisticsService.SaveOrder(response);
             return StatusCode(200, response);
          }
-         catch (Exception ex)
+         catch (Exception)
          {
             return StatusCode(500, Constants.REQUEST_ERROR_MESSAGE);
          }

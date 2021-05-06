@@ -27,12 +27,11 @@ namespace Services
                int affectedRows = command.ExecuteNonQuery();
                return affectedRows > 0;
             }
-            catch (Exception exception)
+            catch (Exception)
             {
-               Console.WriteLine(exception.Message);
+               return false;
             }
          }
-         return false;
       }
    }
 }

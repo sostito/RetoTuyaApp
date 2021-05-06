@@ -1,6 +1,7 @@
 ﻿using Common;
 using Model.Request;
 using Model.Response;
+using System;
 
 namespace Service
 {
@@ -21,12 +22,10 @@ namespace Service
             var otro = Serialize.DeserializeObject<InvoiceProductsResponse>(message);
             return otro;
          }
-         catch (System.Exception ex)
+         catch (Exception)
          {
-
-            throw;
+            return new InvoiceProductsResponse() { Success = false };
          }
-         return null;
       }
    }
 }

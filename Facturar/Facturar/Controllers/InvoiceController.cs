@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Common;
+using Microsoft.AspNetCore.Mvc;
 using Model;
 using Model.Response;
 using Services;
+using System;
 
 namespace Facturar.Controllers
 {
@@ -18,8 +20,15 @@ namespace Facturar.Controllers
       [HttpPost("[action]")]
       public IActionResult InvoiceProducts([FromBody] InvoiceRequest invoiceRequest)
       {
-         InvoiceProductsResponse response = productService.InvoiceProducts(invoiceRequest);
-         return StatusCode(200, response);
+         try
+         {
+            InvoiceProductsResponse response = productService.InvoiceProducts(invoiceRequest);
+            return StatusCode(200, response);
+         }
+         catch (Exception)
+         {
+            return StatusCode(500, Constants.REQUEST_ERROR_MESSAGE);
+         }
       }
    }
 }

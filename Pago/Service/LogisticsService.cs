@@ -1,5 +1,6 @@
 ﻿using Common;
 using Model.Response;
+using System;
 
 namespace Service
 {
@@ -20,11 +21,10 @@ namespace Service
             var isSuccess = Serialize.DeserializeObject<bool>(message);
             return isSuccess;
          }
-         catch (System.Exception ex)
+         catch (Exception ex)
          {
-            throw;
+            return false;
          }
-         return false;
       }
    }
 }

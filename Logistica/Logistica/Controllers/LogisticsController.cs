@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Common;
+using Microsoft.AspNetCore.Mvc;
 using Model.Request;
 using Services;
+using System;
 
 namespace Logistica.Controllers
 {
@@ -16,8 +18,15 @@ namespace Logistica.Controllers
       [HttpPost("[action]")]
       public IActionResult SaveOrder([FromBody] SaveOrderRequest saveOrderRequest)
       {
-         bool isSuccess = dataBaseService.InsertOrder(saveOrderRequest);
-         return StatusCode(200, isSuccess);
+         try
+         {
+            bool isSuccess = dataBaseService.InsertOrder(saveOrderRequest);
+            return StatusCode(200, isSuccess);
+         }
+         catch (Exception)
+         {
+            return StatusCode(500, Constants.REQUEST_ERROR_MESSAGE);
+         }
       }
    }
 }
