@@ -23,3 +23,8 @@ C:\Users\Freddy Rangel\Desktop\tuya\Facturar\Facturar\obj\Debug\netcoreapp3.1\Fa
 C:\Users\Freddy Rangel\Desktop\tuya\Facturar\Facturar\obj\Debug\netcoreapp3.1\Facturar.dll
 C:\Users\Freddy Rangel\Desktop\tuya\Facturar\Facturar\obj\Debug\netcoreapp3.1\Facturar.pdb
 C:\Users\Freddy Rangel\Desktop\tuya\Facturar\Facturar\obj\Debug\netcoreapp3.1\Facturar.genruntimeconfig.cache
+C:\Users\Freddy Rangel\Desktop\tuya\Facturar\Facturar\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Freddy Rangel\Desktop\tuya\Facturar\Facturar\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Freddy Rangel\Desktop\tuya\Facturar\Facturar\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Freddy Rangel\Desktop\tuya\Facturar\Facturar\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Freddy Rangel\Desktop\tuya\Facturar\Facturar\obj\Debug\netcoreapp3.1\Facturar.MvcApplicationPartsAssemblyInfo.cs

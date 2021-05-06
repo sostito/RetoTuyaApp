@@ -34,3 +34,8 @@ C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Logistica\bin\Debug\netcoreapp3.1\
 C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Logistica\bin\Debug\netcoreapp3.1\Common.pdb
 C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Logistica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Logistica\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Logistica\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Logistica\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Logistica\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Logistica\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Freddy Rangel\Desktop\tuya\Logistica\Logistica\obj\Debug\netcoreapp3.1\Logistica.MvcApplicationPartsAssemblyInfo.cs
